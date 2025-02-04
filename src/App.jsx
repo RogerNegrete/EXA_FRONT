@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 //import './App.css';
 
-//https://back-mongo-deploy.vercel.app
-const baseURL = 'http://localhost:3001';
+const baseURL = 'https://exa-back-stevenegrete12-gmailcoms-projects.vercel.app/';
 axios.defaults.baseURL = baseURL;
 console.log('Backend URL:', axios.defaults.baseURL);
 
